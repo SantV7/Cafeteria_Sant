@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    color: orange;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.195);
+}
+
+nav > ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav > ul > li {
+    list-style: none;
+}
+
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-size: 18.7px;
+    transition: ease 0.34s;
+    cursor: pointer;
+    font-weight: 600;
+}
+nav > ul > li > a:hover {
+    background-color: rgba(116, 193, 241, 0.101);
+}
+
+#contact {
+    margin-right: 3.5px;
+    padding: 6.5px 14px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 600;
+    transition: ease 0.28s;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.099);
+    color: white;
+    background-color: rgb(123, 123, 247);
+}
+#contact:hover {
+    background-color: rgb(110, 110, 251);
+}
+
+
+.icon_area {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    header {
+        padding: 5px 18px;
+    }
+    nav {
+        display: none;
+    }
+
+    .icon_area {
+        display: flex;
+        gap: 30px;
+        font-size: 25.7px; 
+        color: white;
+    }
+
+    .icon_area > .icon_bars_menu {
+        cursor: pointer;
+    }
+
+    #contact {
+        display: none;
+    }
+
+}

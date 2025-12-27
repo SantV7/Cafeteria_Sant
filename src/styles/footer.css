@@ -1,0 +1,54 @@
+footer {
+    background-color: rgb(56, 53, 58);
+    padding: 15px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_email_adress {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+#footer_email_adress > a {
+    text-decoration: none;
+    padding: 8px;
+    margin: 4.5px;
+    text-align: center;
+    border: 2px solid rgba(132, 156, 199, 0.353);
+    border-radius: 9px;
+    background-color: rgba(158, 158, 198, 0.188);
+    transition: ease 0.22s;
+    color: white;
+}
+
+#footer_email_adress > a:hover {
+    border: 2px solid rgba(132, 155, 199, 0.732);
+    text-decoration: underline;
+}
+
+#footer_social {
+    margin-top: 32.35px;
+    display: flex;
+    gap: 88px;
+    font-size: 55px;
+}
+
+#footer_social > .social_icon:hover {
+    cursor: pointer;
+}
+
+
+#i_youtube {
+    color: red;
+}
+
+#i_whatsapp {
+    color: rgb(252, 255, 47);
+}
+
+#i_instagram {
+    color: rgb(155, 161, 221);
+}
