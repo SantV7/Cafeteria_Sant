@@ -1,6 +1,6 @@
 import '../styles/cardapio.css'
+import coffee_img from '../img/coffee_img.jpg'
 const Cardapio = () => {
-
 
 
 
@@ -17,7 +17,7 @@ const Cardapio = () => {
                 </div>
 
                 <div id='photo_area_info'>
-
+                <img id='local_coffee' src={coffee_img} alt="Local da cafeteria" />
                 </div>
             </div>
          </main>

@@ -1,5 +1,5 @@
 footer {
-    background-color: rgb(56, 53, 58);
+    background-color: rgb(26, 24, 28);
     padding: 15px;
     height: 140px;
     display: flex;
@@ -51,4 +51,18 @@ footer {
 
 #i_instagram {
     color: rgb(155, 161, 221);
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        height: 185px;
+    }
+
+    #footer_social {
+        font-size: 42px;
+    }
 }

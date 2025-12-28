@@ -1,3 +1,41 @@
 main {
     height: 86.5vh;
+    padding: 15px;
+}
+
+.content_info {
+    display: flex;
+    margin-top: 50px;
+    gap: 12.7px;
+}
+
+
+#wellcome_msg {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+
+#local_coffee {
+    border-radius: 10px;
+    width: 460px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .content_info {
+        display: block;
+    }
+    #photo_aarea_info {
+        display: flex;
+    }
+
+    #local_coffee{
+        width:  80%;
+    }
 }

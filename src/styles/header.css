@@ -6,6 +6,7 @@ header {
 }
 
 .logo {
+    font-size: 18px;
     color: orange;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.195);
 }
@@ -57,10 +58,13 @@ nav > ul > li > a:hover {
 
 
 
-
 @media screen and (max-width:768px) {
     header {
         padding: 5px 18px;
+    }
+
+    .logo {
+        font-size: 17.5px;
     }
     nav {
         display: none;
