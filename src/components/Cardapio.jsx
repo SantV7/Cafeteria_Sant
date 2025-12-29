@@ -1,5 +1,6 @@
 import '../styles/cardapio.css'
 import coffee_img from '../img/coffee_img.jpg'
+import CardsCardapio from './CardsCardapio'
 const Cardapio = () => {
 
 
@@ -19,14 +20,7 @@ const Cardapio = () => {
                     <img id='local_coffee' src={coffee_img} alt="Local da cafeteria" />
                 </div>
             </div>
-
-
-            <div id='cardapio_area'>
-                
-                
-            </div>
-
-
+                <CardsCardapio /> 
 
          </main>
         </>
@@ -35,5 +29,3 @@ const Cardapio = () => {
 
 export default Cardapio
 
-
-// Fazer uma area de cardápio: cards com imagens, e preços dos itens. Com butão de add

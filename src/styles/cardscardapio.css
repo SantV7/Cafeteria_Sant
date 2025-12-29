@@ -1,0 +1,42 @@
+#cardapio_area {
+    margin-top: 170px;
+    margin-bottom: 235px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-flow: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card_cardapio_style {
+    text-align: center;
+    width: 60%;
+    height: 250px;
+    padding: 10px; 
+    border: 1px solid rgb(228, 163, 11);
+    color: white;
+    border-radius: 10px;
+}
+.tittle_food {
+    font-size: 1.37em;
+}
+.price_style {
+   margin-top: 8px;
+   
+}
+.btn_add {
+    padding: 9px;
+    margin-top: 140px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(232, 138, 7);
+    border-radius: 6px;
+}
+
+.btn_add:hover {
+    
+}
