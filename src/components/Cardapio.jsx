@@ -22,30 +22,8 @@ const Cardapio = () => {
 
 
             <div id='cardapio_area'>
-                <div>
-
-                </div>
-                    <span></span>                
-                <div>
-                    <span></span>
-                </div>
-                    <span></span>                
-                <div>
-                    <span></span>
-                </div>
-                    <span></span>                
-                <div>
-                    <span></span>
-                </div>
-                    <span></span>                
-                <div>
-                    <span></span>
-                </div>
-                    <span></span>                
-                <div>
-                    <span></span>
-                </div>
-
+                
+                
             </div>
 
 
