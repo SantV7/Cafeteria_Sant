@@ -6,7 +6,6 @@ const Cardapio = () => {
 
     return(
         <>
-
          <main>
             <div className='content_info'>
                 <div id='wellcome_msg'>
@@ -17,11 +16,41 @@ const Cardapio = () => {
                 </div>
 
                 <div id='photo_area_info'>
-                <img id='local_coffee' src={coffee_img} alt="Local da cafeteria" />
+                    <img id='local_coffee' src={coffee_img} alt="Local da cafeteria" />
                 </div>
             </div>
-         </main>
 
+
+            <div id='cardapio_area'>
+                <div>
+
+                </div>
+                    <span></span>                
+                <div>
+                    <span></span>
+                </div>
+                    <span></span>                
+                <div>
+                    <span></span>
+                </div>
+                    <span></span>                
+                <div>
+                    <span></span>
+                </div>
+                    <span></span>                
+                <div>
+                    <span></span>
+                </div>
+                    <span></span>                
+                <div>
+                    <span></span>
+                </div>
+
+            </div>
+
+
+
+         </main>
         </>
     )
 }
