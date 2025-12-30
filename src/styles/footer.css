@@ -1,9 +1,11 @@
 footer {
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(18, 18, 19);
     padding: 15px;
-    height: 140px;
+    height: 260px;
     display: flex;
+    flex-flow: column;
     justify-content: space-between;
+    align-items: center;   
 }
 
 #footer_email_adress {
@@ -30,10 +32,9 @@ footer {
 }
 
 #footer_social {
-    margin-top: 32.35px;
     display: flex;
     gap: 88px;
-    font-size: 55px;
+    font-size: 45px
 }
 
 #footer_social > .social_icon:hover {
@@ -54,15 +55,9 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    footer {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        height: 185px;
-    }
+
 
     #footer_social {
-        font-size: 42px;
+        font-size: 45px;
     }
 }

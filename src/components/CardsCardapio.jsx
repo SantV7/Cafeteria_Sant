@@ -1,6 +1,11 @@
 import '../styles/cardscardapio.css'
-const CardsCardapio = () => {
+import ScrollReveal from 'scrollreveal'
 
+const CardsCardapio = () => {
+    
+ScrollReveal().reveal('#cardapio_area')
+
+    
 
     return(
         <>

@@ -12,22 +12,27 @@
 .card_cardapio_style {
     text-align: center;
     width: 60%;
-    height: 250px;
+    height: 280px;
     padding: 10px; 
     border: 1px solid rgb(228, 163, 11);
     color: white;
     border-radius: 10px;
 }
+
 .tittle_food {
     font-size: 1.37em;
 }
+
 .price_style {
    margin-top: 8px;
    
 }
+
 .btn_add {
-    padding: 9px;
-    margin-top: 140px;
+    cursor: pointer;
+    width: 140px;
+    height: 45px;
+    margin-top: 155px;
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
     font-size: 15px;
@@ -38,5 +43,6 @@
 }
 
 .btn_add:hover {
-    
+    background-color: rgb(255, 169, 8);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.500);
 }
