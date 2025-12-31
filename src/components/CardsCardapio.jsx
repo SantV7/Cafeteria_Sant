@@ -1,11 +1,18 @@
+import { useEffect } from 'react'
 import '../styles/cardscardapio.css'
 import ScrollReveal from 'scrollreveal'
 
 const CardsCardapio = () => {
     
-ScrollReveal().reveal('#cardapio_area')
-
-    
+    useEffect(() => {
+        ScrollReveal().reveal('.card_cardapio_style' , 
+         {
+          duration: 1000,
+          rotate: {x: 0, y: 40, z: 0},
+          delay: 50,
+          reset: true
+         })
+    }, [])
 
     return(
         <>

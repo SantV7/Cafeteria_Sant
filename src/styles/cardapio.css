@@ -6,8 +6,9 @@ main {
 .content_info {
     margin: auto;
     display: flex;
-    margin-top: 90px;
-    gap: 12.7px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
 }
 
 #wellcome_msg {
